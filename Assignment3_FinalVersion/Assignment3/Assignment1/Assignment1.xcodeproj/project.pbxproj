@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A0C95550E944DBCAC6C1537 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C2C01C9D8B54D5B9A911ED4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B9672DE8A9D7467D98517918 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		74EAEE0428D5445DACBE20B6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4BDB33A5F17A4EFDB4D587B5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				75397E6CB52D43B4B657899B /* CMake Rules */,
+			);
+			dependencies = (
+				46B91CF545F549C38B3D132C /* PBXTargetDependency */,
+				3E36C00E4EEF46ECA661AAAB /* PBXTargetDependency */,
+				8D92F2457A514422B341C17B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32186B22ADC645508ECAE208 /* jello.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1996B36DC904151AD4CEEB3 /* jello.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		44CCA6C0004E49CA8FBBA2B7 /* showCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFDF7DA75BCC45129462673F /* showCube.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4BFB5A90D7F94AD1B8A2D026 /* createWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2CD53A394844D30B60D6CD3 /* createWorld.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		50CFA4CF607841098298C3FF /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2096CCDCD71E416281147776 /* input.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5E4CA91D1C6C7A9400BF2F4C /* myMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CA91B1C6C7A9400BF2F4C /* myMath.cpp */; };
+		5E5F8DC21CB2F03F007DCC3B /* controlPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F8DC01CB2F03F007DCC3B /* controlPoint.cpp */; };
+		5E5F8DC31CB2F03F007DCC3B /* controlPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F8DC01CB2F03F007DCC3B /* controlPoint.cpp */; };
+		78219FD5571949F7B5E0671A /* pic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE82B9D126B14F2C9DB514DF /* pic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA5B6D9CB94B4653B82F3EB7 /* ppm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 350E9799BC474714B50DB775 /* ppm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E19D6135619A4394B8B11C0A /* physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77D48519D07419DBDCA8723 /* physics.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167087E1C6364E7A8C72B1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE529738B5648E7AB4086EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0C95550E944DBCAC6C1537;
+			remoteInfo = ZERO_CHECK;
+		};
+		4190DD35930F4860BC672B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE529738B5648E7AB4086EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0C95550E944DBCAC6C1537;
+			remoteInfo = ZERO_CHECK;
+		};
+		4504A043FF6D432A91266C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE529738B5648E7AB4086EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD223DB3AAFC4D80B95F4FFA;
+			remoteInfo = createWorld;
+		};
+		6665792A0A474EF6A66D78F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE529738B5648E7AB4086EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F644F42B6ED40008551429E;
+			remoteInfo = jello;
+		};
+		C83BFFB8F4434E20BCD49DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE529738B5648E7AB4086EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0C95550E944DBCAC6C1537;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ED598C0E9964EF8B888741C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2096CCDCD71E416281147776 /* input.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = input.cpp; sourceTree = SOURCE_ROOT; };
+		2969F6C552D143469E9F58F9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		350E9799BC474714B50DB775 /* ppm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = ppm.cpp; sourceTree = SOURCE_ROOT; };
+		4A4D16F724384FEAB951CD8B /* pic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = pic.h; sourceTree = SOURCE_ROOT; };
+		5E4CA91B1C6C7A9400BF2F4C /* myMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myMath.cpp; sourceTree = "<group>"; };
+		5E4CA91C1C6C7A9400BF2F4C /* myMath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = myMath.hpp; sourceTree = "<group>"; };
+		5E5F8DC01CB2F03F007DCC3B /* controlPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controlPoint.cpp; sourceTree = "<group>"; };
+		5E5F8DC11CB2F03F007DCC3B /* controlPoint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = controlPoint.hpp; sourceTree = "<group>"; };
+		5EC5EF311C6DC3C100E05024 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		6124F2DF19A042D0BFE260D9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		66AE349675CE4A12AB967879 /* input.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = input.h; sourceTree = SOURCE_ROOT; };
+		98FB9CE061854A12B6661B2E /* jello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = jello; sourceTree = BUILT_PRODUCTS_DIR; };
+		993E7100C7794EC2BC754701 /* physics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = physics.h; sourceTree = SOURCE_ROOT; };
+		B2CD53A394844D30B60D6CD3 /* createWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = createWorld.cpp; sourceTree = SOURCE_ROOT; };
+		C0886FA8F6354B91B05D72EC /* createWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = createWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE82B9D126B14F2C9DB514DF /* pic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = pic.cpp; sourceTree = SOURCE_ROOT; };
+		E1996B36DC904151AD4CEEB3 /* jello.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = jello.cpp; sourceTree = SOURCE_ROOT; };
+		E39749F41723498EAC5D35B4 /* jello.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = jello.h; sourceTree = SOURCE_ROOT; };
+		E3BBD06253824D56B7A95233 /* showCube.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = showCube.h; sourceTree = SOURCE_ROOT; };
+		E77D48519D07419DBDCA8723 /* physics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = physics.cpp; sourceTree = SOURCE_ROOT; };
+		EFDF7DA75BCC45129462673F /* showCube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = showCube.cpp; sourceTree = SOURCE_ROOT; };
+		F334F7AB192248A5A78A69C6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0204E15F7AB1405088B2FAF2 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				752D0715D6CE4814B744B655 /* CMake Rules */,
+				F334F7AB192248A5A78A69C6 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		19B1C0093BBF4C7C8B1C2E0A /* jello */ = {
+			isa = PBXGroup;
+			children = (
+				4BB50A6C4BA44414B21CB2D3 /* Source Files */,
+				E14A5BFAC409426985CF60D4 /* Header Files */,
+				6124F2DF19A042D0BFE260D9 /* CMakeLists.txt */,
+			);
+			name = jello;
+			sourceTree = "<group>";
+		};
+		2049C0390CDB4789BD0DBF7E /* createWorld */ = {
+			isa = PBXGroup;
+			children = (
+				C923A58FA1E4441097364B0E /* Source Files */,
+				1ED598C0E9964EF8B888741C /* CMakeLists.txt */,
+			);
+			name = createWorld;
+			sourceTree = "<group>";
+		};
+		251B0B003CFE4FB0ADFBFF50 = {
+			isa = PBXGroup;
+			children = (
+				A2A695DA339F44F5AB4D9067 /* Sources */,
+				3A1560BEFC5C4D3F9F0D8986 /* Resources */,
+				3BBDFE7FAC64488B8ED1B979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1560BEFC5C4D3F9F0D8986 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BBDFE7FAC64488B8ED1B979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0886FA8F6354B91B05D72EC /* createWorld */,
+				98FB9CE061854A12B6661B2E /* jello */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB50A6C4BA44414B21CB2D3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2096CCDCD71E416281147776 /* input.cpp */,
+				E1996B36DC904151AD4CEEB3 /* jello.cpp */,
+				E77D48519D07419DBDCA8723 /* physics.cpp */,
+				DE82B9D126B14F2C9DB514DF /* pic.cpp */,
+				350E9799BC474714B50DB775 /* ppm.cpp */,
+				EFDF7DA75BCC45129462673F /* showCube.cpp */,
+				5E4CA91B1C6C7A9400BF2F4C /* myMath.cpp */,
+				5E5F8DC01CB2F03F007DCC3B /* controlPoint.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		752D0715D6CE4814B744B655 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A0DBD281DA0D4E6CAED3C476 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DE4AF85C94C64BF7833855FB /* CMake Rules */,
+				2969F6C552D143469E9F58F9 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A2A695DA339F44F5AB4D9067 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC5EF311C6DC3C100E05024 /* Readme.rtf */,
+				19B1C0093BBF4C7C8B1C2E0A /* jello */,
+				2049C0390CDB4789BD0DBF7E /* createWorld */,
+				A0DBD281DA0D4E6CAED3C476 /* ALL_BUILD */,
+				0204E15F7AB1405088B2FAF2 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C923A58FA1E4441097364B0E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD53A394844D30B60D6CD3 /* createWorld.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DE4AF85C94C64BF7833855FB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E14A5BFAC409426985CF60D4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F8DC11CB2F03F007DCC3B /* controlPoint.hpp */,
+				5E4CA91C1C6C7A9400BF2F4C /* myMath.hpp */,
+				66AE349675CE4A12AB967879 /* input.h */,
+				E39749F41723498EAC5D35B4 /* jello.h */,
+				993E7100C7794EC2BC754701 /* physics.h */,
+				4A4D16F724384FEAB951CD8B /* pic.h */,
+				E3BBD06253824D56B7A95233 /* showCube.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F644F42B6ED40008551429E /* jello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F12F6D6DE94769A6A47174 /* Build configuration list for PBXNativeTarget "jello" */;
+			buildPhases = (
+				837013086D3347C8A08D630C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5402682DEFC94A2EA46E2A08 /* PBXTargetDependency */,
+			);
+			name = jello;
+			productName = jello;
+			productReference = 98FB9CE061854A12B6661B2E /* jello */;
+			productType = "com.apple.product-type.tool";
+		};
+		AD223DB3AAFC4D80B95F4FFA /* createWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C803A9BD577D4AB89A6E09A6 /* Build configuration list for PBXNativeTarget "createWorld" */;
+			buildPhases = (
+				D3FD0F53006D4F8FB2CB2211 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEA9F75F3D64375ACB96E1E /* PBXTargetDependency */,
+			);
+			name = createWorld;
+			productName = createWorld;
+			productReference = C0886FA8F6354B91B05D72EC /* createWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE529738B5648E7AB4086EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = CAD30F64458B4EAA9845B815 /* Build configuration list for PBXProject "Assignment1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 251B0B003CFE4FB0ADFBFF50;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74EAEE0428D5445DACBE20B6 /* ALL_BUILD */,
+				2A0C95550E944DBCAC6C1537 /* ZERO_CHECK */,
+				AD223DB3AAFC4D80B95F4FFA /* createWorld */,
+				6F644F42B6ED40008551429E /* jello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75397E6CB52D43B4B657899B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1 -f /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B9672DE8A9D7467D98517918 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1 -f /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837013086D3347C8A08D630C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CFA4CF607841098298C3FF /* input.cpp in Sources */,
+				5E4CA91D1C6C7A9400BF2F4C /* myMath.cpp in Sources */,
+				32186B22ADC645508ECAE208 /* jello.cpp in Sources */,
+				E19D6135619A4394B8B11C0A /* physics.cpp in Sources */,
+				5E5F8DC31CB2F03F007DCC3B /* controlPoint.cpp in Sources */,
+				78219FD5571949F7B5E0671A /* pic.cpp in Sources */,
+				AA5B6D9CB94B4653B82F3EB7 /* ppm.cpp in Sources */,
+				44CCA6C0004E49CA8FBBA2B7 /* showCube.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FD0F53006D4F8FB2CB2211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5F8DC21CB2F03F007DCC3B /* controlPoint.cpp in Sources */,
+				4BFB5A90D7F94AD1B8A2D026 /* createWorld.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E36C00E4EEF46ECA661AAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F644F42B6ED40008551429E /* jello */;
+			targetProxy = 6665792A0A474EF6A66D78F9 /* PBXContainerItemProxy */;
+		};
+		46B91CF545F549C38B3D132C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0C95550E944DBCAC6C1537 /* ZERO_CHECK */;
+			targetProxy = C83BFFB8F4434E20BCD49DC7 /* PBXContainerItemProxy */;
+		};
+		5402682DEFC94A2EA46E2A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0C95550E944DBCAC6C1537 /* ZERO_CHECK */;
+			targetProxy = 167087E1C6364E7A8C72B1F0 /* PBXContainerItemProxy */;
+		};
+		8D92F2457A514422B341C17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD223DB3AAFC4D80B95F4FFA /* createWorld */;
+			targetProxy = 4504A043FF6D432A91266C5A /* PBXContainerItemProxy */;
+		};
+		CAEA9F75F3D64375ACB96E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0C95550E944DBCAC6C1537 /* ZERO_CHECK */;
+			targetProxy = 4190DD35930F4860BC672B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FFFDBFE62C5425A9EC90E26 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		22A6CCE4F79F49448CE268B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = jello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		22EE231A9DF5401D987CC82D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = jello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		2E5182DFBCCF4FCD8B27AF97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		412BAFD43D07464F915F8AD8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = jello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		44E7FC25F494451FB194F3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		53BE13759BCA473D86E70C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		549A2093937C4032A0A3E80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/build;
+			};
+			name = Debug;
+		};
+		5F2CD2DC16E54BEA81180B8B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/build;
+			};
+			name = RelWithDebInfo;
+		};
+		669D73F6DEC047929095786A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		775D0B21D6D64805873EAAF0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		90DE1DC37DF34C6D9DBBFB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/build;
+			};
+			name = Release;
+		};
+		A4D7F3B80D3C4E1A9C9581B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = createWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B16F666C630A4A7D99EE1EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B6C0CB21FEF14324B661B7E2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = createWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BBCC49FEDBA047BA925E06FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1/build;
+			};
+			name = MinSizeRel;
+		};
+		E0CA6CA94F36418CA45BE17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		E5AE5AEA9D5C4FD8893B0831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = createWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		EA9387DF1C564F39AE00BF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = createWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		EC70BED73C234E249ED09D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = jello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yangjialin/GoogleCloudDrive/CSCI_520/Assignment1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F12F6D6DE94769A6A47174 /* Build configuration list for PBXNativeTarget "jello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70BED73C234E249ED09D00 /* Debug */,
+				22A6CCE4F79F49448CE268B5 /* Release */,
+				22EE231A9DF5401D987CC82D /* MinSizeRel */,
+				412BAFD43D07464F915F8AD8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4BDB33A5F17A4EFDB4D587B5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CA6CA94F36418CA45BE17A /* Debug */,
+				44E7FC25F494451FB194F3AD /* Release */,
+				2E5182DFBCCF4FCD8B27AF97 /* MinSizeRel */,
+				0FFFDBFE62C5425A9EC90E26 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C2C01C9D8B54D5B9A911ED4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F666C630A4A7D99EE1EF2 /* Debug */,
+				53BE13759BCA473D86E70C66 /* Release */,
+				669D73F6DEC047929095786A /* MinSizeRel */,
+				775D0B21D6D64805873EAAF0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C803A9BD577D4AB89A6E09A6 /* Build configuration list for PBXNativeTarget "createWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AE5AEA9D5C4FD8893B0831 /* Debug */,
+				EA9387DF1C564F39AE00BF0A /* Release */,
+				B6C0CB21FEF14324B661B7E2 /* MinSizeRel */,
+				A4D7F3B80D3C4E1A9C9581B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAD30F64458B4EAA9845B815 /* Build configuration list for PBXProject "Assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549A2093937C4032A0A3E80A /* Debug */,
+				90DE1DC37DF34C6D9DBBFB63 /* Release */,
+				BBCC49FEDBA047BA925E06FD /* MinSizeRel */,
+				5F2CD2DC16E54BEA81180B8B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE529738B5648E7AB4086EF /* Project object */;
+}
